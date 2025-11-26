@@ -1,0 +1,17 @@
+title: Professional Product Photography
+title_zh: "Prompt:"
+author: ""
+author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+source_links:
+  - url: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+image: professional-product-photography.jpg
+alt_text: Professional Product Photography
+alt_text_zh: "Prompt:"
+prompt_zh: 识别上传照片中的主要产品（自动删除任何握住它的手或杂乱的背景细节）。将其重新创建为优质电子商务产品镜头。对象隔离：干净地提取产品，完全清除任何手指、手或杂物。背景：将产品放置在纯白色工作室背景（RGB 255、255、255）上，底部有微妙、自然的接触阴影以将其接地。灯光：使用柔和的商业工作室灯光来突出产品的质感和材质。确保照明均匀，无刺眼眩光。修饰：自动修复任何镜头畸变，提高清晰度，并校正色彩，使产品看起来焕然一新和专业。
+prompt: "Identify the main product in the uploaded photo (automatically removing any hands holding it or messy background details). Recreate it as a premium e-commerce product shot . Subject Isolation : Cleanly extract the product, completely removing any fingers, hands, or clutter . Background : Place the product on a pure white studio background (RGB 255, 255, 255) with a subtle, natural contact shadow at the base to ground it. Lighting : Use soft, commercial studio lighting to highlight the product's texture and material. Ensure even illumination with no harsh glare. Retouching : Automatically fix any lens distortion, improve sharpness, and color-correct to make the product look brand new and professional ."
+prompt_note_zh: ""
+prompt_note: ""
+reference_note_zh: ""
+reference_note: ""
+submitter: ""
+submitter_link: ""

@@ -1,12 +1,12 @@
-title: 皮克斯3D风格
-title_en: Pixar 3D Style
-prompt_author: "AnimeAI"
-prompt_author_link: https://animeai.online
-image_author: "@jamez-bondos"
-image_author_link: https://github.com/jamez-bondos
+title: Hand-drawn Flowchart to Corporate Charts
+title_zh: "Prompt:"
+prompt_author: ""
+prompt_author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+image_author: ""
+image_author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
 source_links:
-  - url: https://animeai.online/#demo-gallery
+  - url: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
 license: CC-BY-4.0
-creation_tool: Sora
-date: 2025-05-24
-notes: Prompt quoted verbatim; image fully regenerated via Sora.
+creation_tool: nano-banana-pro
+date: "2025-11-26"
+notes: Prompt quoted from markdown; image downloaded and uploaded to R2.

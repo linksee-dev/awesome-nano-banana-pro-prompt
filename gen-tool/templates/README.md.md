@@ -8,8 +8,8 @@
 
 ---
 
-<a id="gpt4o-intro"></a>
-{{{gpt4o-intro}}}
+<a id="nano-banana-pro-intro"></a>
+{{{nano-banana-pro-intro}}}
 
 ---
 
@@ -43,6 +43,10 @@
 
 <a id="acknowledgements"></a>
 {{{acknowledgements}}}
+
+
+<a id="sponsored"></a>
+{{{sponsored}}}
 
 
 <a id="star-history"></a>

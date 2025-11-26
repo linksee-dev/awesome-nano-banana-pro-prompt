@@ -4,18 +4,18 @@
 
 There are two main ways you can contribute.
 
-## 方式一：通过 GitHub Issue 快速提交
+## 方式一：通过在线表单快速提交
 
-如果您想快速分享一个案例，或者不太熟悉 Pull Request 流程，可以通过 Issue 提交。
+如果您想快速分享一个案例，或者不太熟悉 Pull Request 流程，可以通过在线表单提交。
 
-➡️ 点击这里使用模板提交新案例：[提交新案例](https://github.com/jamez-bondos/awesome-gpt4o-images/issues/new?template=add_new_example.yml)
+➡️ 点击这里使用模板提交新案例：[提交新案例](https://sovibe.org/prompts/submit)
 
 
-## Option 1: Quick Submit via GitHub Issue
+## Option 1: Quick Submit via Online Form
 
-If you want to quickly share an example, or if you're less familiar with the Pull Request process, submitting via an Issue is a great option.
+If you want to quickly share an example, or if you're less familiar with the Pull Request process, submitting via the online form is a great option.
 
-➡️ Click here to submit a new example using the template: [Submit New Example](https://github.com/jamez-bondos/awesome-gpt4o-images/issues/new?template=add_new_example_en.yml)
+➡️ Click here to submit a new example using the template: [Submit New Example](https://sovibe.org/prompts/submit)
 
 ---
 
@@ -38,7 +38,7 @@ If you want to quickly share an example, or if you're less familiar with the Pul
         * **原作者名称**（Author）
         * **原作者链接**（Author Link）
         * **原文链接**（Source URL）
-    * **语言：** 欢迎提供中英文的详细内容。合并时维护者将检查是否为双语版本；如缺失语言版本，将使用 GPT-4o 模型补全翻译。
+    * **语言：** 欢迎提供中英文的详细内容。合并时维护者将检查是否为双语版本；如缺失语言版本，将使用 Nano Banana Pro 模型补全翻译。
 
 3. 提交更改并在 GitHub 发起 Pull Request。
 
@@ -63,7 +63,7 @@ If you want to quickly share an example, or if you're less familiar with the Pul
         * **Author name**
         * **Author link**
         * **Source URL**
-    * **Language:** You are welcome to provide detailed information in both Chinese and English. The maintainer will check for bilingual completeness during merging; if only one language is provided, the missing translation will be completed using the GPT-4o model.
+    * **Language:** You are welcome to provide detailed information in both Chinese and English. The maintainer will check for bilingual completeness during merging; if only one language is provided, the missing translation will be completed using the Nano Banana Pro model.
 
 3. Commit your changes and open a Pull Request on GitHub.
 
@@ -74,7 +74,7 @@ If you want to quickly share an example, or if you're less familiar with the Pul
 
 通过提交 Pull Request 或 Issue，**您即确认您对所上传的每一个文件拥有版权，或已获得明确授权，并且不可撤销地同意将您的贡献按 CC BY 4.0 许可证发布。**
 您上传的图像必须符合以下任一条件：
-1. 由您本人原创生成（例如使用 GPT-4o、Sora、gpt-image-1 等）；
+1. 由您本人原创生成（例如使用 Nano Banana Pro 等）；
 2. 或您已获得第三方作品的书面使用许可。
 
 严禁上传未经授权的第三方图像。
@@ -87,7 +87,7 @@ copyright or have explicit permission for every file you upload** and
 **irrevocably license your contribution under CC BY 4.0**.  
 Images must be either:
 
-1. Original works you generated (e.g., via GPT-4o, Sora, gpt-image-1), or  
+1. Original works you generated (e.g., via Nano Banana Pro), or  
 2. Third-party works for which you hold written permission.
 
 Uploading unlicensed third-party images is prohibited.

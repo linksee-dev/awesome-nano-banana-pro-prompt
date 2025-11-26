@@ -1,12 +1,12 @@
-title: 四格漫画 (相对论)
-title_en: Four-Panel Manga (Theory of Relativity)
-prompt_author: "@dotey"
-prompt_author_link: https://x.com/dotey
-image_author: "@jamez-bondos"
-image_author_link: https://github.com/jamez-bondos
+title: Magazine Layout Generator
+title_zh: "Prompt:"
+prompt_author: "@fofrAI"
+prompt_author_link: https://x.com/fofrAI/status/1991530971800182929
+image_author: "@fofrAI"
+image_author_link: https://x.com/fofrAI/status/1991530971800182929
 source_links:
-  - url: https://x.com/dotey/status/1904980568107819060
+  - url: https://x.com/fofrAI/status/1991530971800182929
 license: CC-BY-4.0
-creation_tool: Sora
-date: 2025-05-24
-notes: Prompt quoted verbatim; image fully regenerated via Sora.
+creation_tool: nano-banana-pro
+date: "2025-11-26"
+notes: Prompt quoted from markdown; image downloaded and uploaded to R2.
