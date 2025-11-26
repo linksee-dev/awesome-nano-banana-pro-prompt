@@ -1,0 +1,129 @@
+title: 2000s Mirror Selfie
+title_zh: "Prompt:"
+author: "@ZaraIrahh"
+author_link: https://x.com/ZaraIrahh/status/1991681614368436468?s=20
+source_links:
+  - url: https://x.com/ZaraIrahh/status/1991681614368436468?s=20
+image: 2000s-mirror-selfie.jpg
+alt_text: 2000s Mirror Selfie
+alt_text_zh: "Prompt:"
+prompt_zh: |-
+  使用 Gemini Nano Banana 为自己制作一张 2000 年代的镜子自拍照。
+
+  {
+    “主题”：{
+      "description": "一位年轻女子对着镜子自拍，留着长长的深色波浪和柔软纤细的刘海",
+      “年龄”：“年轻人”，
+      "express": "自信又略带俏皮",
+      “头发”：{
+        “颜色”：“深色”，
+        “风格”：“非常长、大量的波浪，带有柔软的纤细刘海”
+      },
+      “服装”：{
+        “顶部”：{
+          "type": "合身短款 T 恤",
+          “颜色”：“乳白色”，
+          “细节”：“具有可爱的动漫风格大猫脸图案，蓝色的大眼睛、胡须和粉红色的小嘴”
+        }
+      },
+      “脸”：{
+        “保留原始”：正确，
+        “妆容”：“自然迷人的妆容，柔和的粉色水润腮红和光泽的红色撅唇”
+      }
+    },
+    “配件”：{
+      “耳环”：{
+        “type”：“金色几何环形耳环”
+      },
+      “珠宝”：{
+        “腰链”：“银腰链”
+      },
+      “设备”：{
+        “类型”：“智能手机”，
+        "details": "图案案例"
+      }
+    },
+    “摄影”：{
+      "camera_style": "2000 年代初期数码相机美学",
+      “lighting”：“刺眼的超级闪光，高光明亮，但主体仍然可见”，
+      "angle": "镜子自拍",
+      "shot_type": "紧凑的自拍构图",
+      “texture”：“微妙的颗粒、复古的亮点、V6 真实感、清晰的细节、柔和的阴影”
+    },
+    “背景”：{
+      "setting": "2000 年代初的怀旧卧室",
+      "wall_color": "柔和的色调",
+      “元素”：[
+        “厚实的木制梳妆台”，
+        “CD播放器”，
+        “2000 年代流行偶像的海报”，
+        “挂珠门帘”，
+        “凌乱的梳妆台和唇彩”
+      ],
+      "atmosphere": "正宗的 2000 年代怀旧氛围",
+      “灯光”：“复古”
+    }
+  }
+prompt: |-
+  Create a 2000s Mirror Selfie of yourself using Gemini Nano Banana.
+
+  {
+    "subject": {
+      "description": "A young woman taking a mirror selfie with very long voluminous dark waves and soft wispy bangs",
+      "age": "young adult",
+      "expression": "confident and slightly playful",
+      "hair": {
+        "color": "dark",
+        "style": "very long, voluminous waves with soft wispy bangs"
+      },
+      "clothing": {
+        "top": {
+          "type": "fitted cropped t-shirt",
+          "color": "cream white",
+          "details": "features a large cute anime-style cat face graphic with big blue eyes, whiskers, and a small pink mouth"
+        }
+      },
+      "face": {
+        "preserve_original": true,
+        "makeup": "natural glam makeup with soft pink dewy blush and glossy red pouty lips"
+      }
+    },
+    "accessories": {
+      "earrings": {
+        "type": "gold geometric hoop earrings"
+      },
+      "jewelry": {
+        "waistchain": "silver waistchain"
+      },
+      "device": {
+        "type": "smartphone",
+        "details": "patterned case"
+      }
+    },
+    "photography": {
+      "camera_style": "early-2000s digital camera aesthetic",
+      "lighting": "harsh super-flash with bright blown-out highlights but subject still visible",
+      "angle": "mirror selfie",
+      "shot_type": "tight selfie composition",
+      "texture": "subtle grain, retro highlights, V6 realism, crisp details, soft shadows"
+    },
+    "background": {
+      "setting": "nostalgic early-2000s bedroom",
+      "wall_color": "pastel tones",
+      "elements": [
+        "chunky wooden dresser",
+        "CD player",
+        "posters of 2000s pop icons",
+        "hanging beaded door curtain",
+        "cluttered vanity with lip glosses"
+      ],
+      "atmosphere": "authentic 2000s nostalgic vibe",
+      "lighting": "retro"
+    }
+  }
+prompt_note_zh: ""
+prompt_note: ""
+reference_note_zh: ""
+reference_note: ""
+submitter: ""
+submitter_link: ""

@@ -18,12 +18,12 @@ const caseDirs = fs.readdirSync(path.join(__dirname, '../../cases'));
 const numericDirs = caseDirs.filter(dir => !isNaN(dir));
 let cases = numericDirs.map(dir => {
   const caseNumber = parseInt(dir);
-  const casePath = path.join(__dirname, '../../cases', dir, 'case.yml');
+  const casePath = path.join(__dirname, '../../cases', dir, 'case.yaml');
   const attributionPath = path.join(__dirname, '../../cases', dir, 'ATTRIBUTION.yml');
   
   // Check if files exist before reading
   if (!fs.existsSync(casePath)) {
-    console.warn(`Warning: case.yml not found in cases/${dir}, skipping...`);
+    console.warn(`Warning: case.yaml not found in cases/${dir}, skipping...`);
     return null;
   }
   
@@ -55,16 +55,16 @@ for (const c of cases) {
     cases_contents += Mustache.render(case_template, {
       case_no: c.case_no,
       t: t,
-      title: lang === 'zh' ? c.title : c.title_en,
+      title: lang === 'zh' ? c.title_zh : c.title,
       author: c.author,
       author_link: c.author_link,
       source_links: source_links,
       image: c.image,
-      alt_text: lang === 'zh' ? c.alt_text.trim() : c.alt_text_en.trim(),
+      alt_text: lang === 'zh' ? (c.alt_text_zh || '').trim() : (c.alt_text || '').trim(),
       attribution: c.attribution,
-      prompt: lang === 'zh' ? c.prompt.trim() : c.prompt_en.trim(),
-      prompt_note: lang === 'zh' ? c.prompt_note.trim() : c.prompt_note_en.trim(),
-      reference_note: lang === 'zh' ? c.reference_note.trim() : c.reference_note_en.trim(),
+      prompt: lang === 'zh' ? (c.prompt_zh || '').trim() : (c.prompt || '').trim(),
+      prompt_note: lang === 'zh' ? (c.prompt_note_zh || '').trim() : (c.prompt_note || '').trim(),
+      reference_note: lang === 'zh' ? (c.reference_note_zh || '').trim() : (c.reference_note || '').trim(),
       submitter: c.submitter,
       submitter_link: c.submitter_link,
     }) + '\n';
@@ -75,7 +75,7 @@ const data = {
   't': t,
   'cases': cases.map(c => ({
     case_no: c.case_no,
-    title: lang === 'zh' ? c.title : c.title_en,
+    title: lang === 'zh' ? c.title_zh : c.title,
     author: c.author,
   })),
   'header': fs.readFileSync(path.join(__dirname, '../templates', lang, 'header.md'), 'utf8'),

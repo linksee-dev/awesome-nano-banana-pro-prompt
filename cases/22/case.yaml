@@ -1,0 +1,17 @@
+title: Smart Crowd Removal
+title_zh: "Prompt:"
+author: ""
+author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+source_links:
+  - url: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+image: smart-crowd-removal.jpg
+alt_text: Smart Crowd Removal
+alt_text_zh: "Prompt:"
+prompt_zh: "Remove all the tourists/people in the background behind the main subject. Intelligent Fill : Replace them with realistic background elements that logically fit the scene (e.g., extend the cobblestone pavement, empty park benches, or grass textures). Consistency : Ensure no blurry artifacts or 'smudges' remain. The filled area must have the same grain, focus depth, and lighting as the rest of the photo."
+prompt: "Remove all the tourists/people in the background behind the main subject. Intelligent Fill : Replace them with realistic background elements that logically fit the scene (e.g., extend the cobblestone pavement, empty park benches, or grass textures). Consistency : Ensure no blurry artifacts or 'smudges' remain. The filled area must have the same grain, focus depth, and lighting as the rest of the photo."
+prompt_note_zh: ""
+prompt_note: ""
+reference_note_zh: ""
+reference_note: ""
+submitter: ""
+submitter_link: ""

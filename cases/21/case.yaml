@@ -1,0 +1,17 @@
+title: Composition Rescue (Smart Outpainting)
+title_zh: "Prompt:"
+author: ""
+author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+source_links:
+  - url: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+image: composition-rescue-smart-outpainting.jpg
+alt_text: Composition Rescue (Smart Outpainting)
+alt_text_zh: "Prompt:"
+prompt_zh: "Zoom out and expand this image to a 16:9 aspect ratio (computer wallpaper size). Context Awareness : Seamlessly extend the scenery on both left and right sides. Match the original lighting, weather, and texture perfectly. Logical Completion : If there are cut-off objects (like a shoulder, a tree branch, or a building edge) on the borders, complete them naturally based on logical inference. Do not distort the original center image."
+prompt: "Zoom out and expand this image to a 16:9 aspect ratio (computer wallpaper size). Context Awareness : Seamlessly extend the scenery on both left and right sides. Match the original lighting, weather, and texture perfectly. Logical Completion : If there are cut-off objects (like a shoulder, a tree branch, or a building edge) on the borders, complete them naturally based on logical inference. Do not distort the original center image."
+prompt_note_zh: ""
+prompt_note: ""
+reference_note_zh: ""
+reference_note: ""
+submitter: ""
+submitter_link: ""

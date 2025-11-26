@@ -1,0 +1,17 @@
+title: Digital Content Localization (Comics/Memes)
+title_zh: "Prompt:"
+author: ""
+author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+source_links:
+  - url: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+image: digital-content-localization-comicsmemes.jpg
+alt_text: Digital Content Localization (Comics/Memes)
+alt_text_zh: "Prompt:"
+prompt_zh: "Translate the text in the speech bubbles/captions from [Japanese/English] to [Chinese]. Seamless Cleaning : Erase the original text and perfectly fill the background (e.g., the white speech bubble or the colored image background). Style Matching : Render the translated Chinese text using a casual, handwritten-style font (or bold impact font for memes) that matches the aesthetic of the original image. Fit : Ensure the text fits naturally within the bubbles without overcrowding."
+prompt: "Translate the text in the speech bubbles/captions from [Japanese/English] to [Chinese]. Seamless Cleaning : Erase the original text and perfectly fill the background (e.g., the white speech bubble or the colored image background). Style Matching : Render the translated Chinese text using a casual, handwritten-style font (or bold impact font for memes) that matches the aesthetic of the original image. Fit : Ensure the text fits naturally within the bubbles without overcrowding."
+prompt_note_zh: ""
+prompt_note: ""
+reference_note_zh: ""
+reference_note: ""
+submitter: ""
+submitter_link: ""

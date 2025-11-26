@@ -1,0 +1,17 @@
+title: Virtual Model Try-On
+title_zh: "Prompt:"
+author: ""
+author_link: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+source_links:
+  - url: https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ
+image: virtual-model-try-on.jpg
+alt_text: Virtual Model Try-On
+alt_text_zh: "Prompt:"
+prompt_zh: 使用图像 1（服装）和图像 2（模特）创建模特穿着服装的超现实全身时尚照片。关键合身细节：[T 恤/夹克] 必须自然地垂在模特身上，符合她们的姿势，并创造出逼真的褶皱和皱纹。高保真保留：极其准确地保留图 1 中的原始织物纹理、颜色和任何徽标。无缝集成：通过完美匹配环境照明、色温和阴影方向，将服装融入图像 2。摄影风格：干净的电子商务画册，使用佳能 EOS R5 拍摄，配备 50mm f/1.8 镜头，呈现自然、专业的外观。
+prompt: "Using Image 1 (the garment) and Image 2 (the model), create a hyper-realistic full-body fashion photo where the model is wearing the garment. Crucial Fit Details : The [T-shirt/Jacket] must drape naturally on the model's body, conforming to their posture and creating realistic folds and wrinkles . High-Fidelity Preservation : Preserve the original fabric texture, color, and any logos from Image 1 with extreme accuracy. Seamless Integration : Blend the garment into Image 2 by perfectly matching the ambient lighting, color temperature, and shadow direction . Photography Style : Clean e-commerce lookbook, shot on a Canon EOS R5 with a 50mm f/1.8 lens for a natural, professional look."
+prompt_note_zh: ""
+prompt_note: ""
+reference_note_zh: ""
+reference_note: ""
+submitter: ""
+submitter_link: ""
