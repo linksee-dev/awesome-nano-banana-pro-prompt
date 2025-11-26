@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const args = process.argv.slice(2);
 const args_lang = args.find(arg => arg.startsWith('--lang='));
-const lang = args_lang ? args_lang.split('=')[1] : 'zh';
+const lang = args_lang ? args_lang.split('=')[1] : 'en';
 const t = langs[lang];
 
 // read all case files
@@ -19,15 +19,28 @@ const numericDirs = caseDirs.filter(dir => !isNaN(dir));
 let cases = numericDirs.map(dir => {
   const caseNumber = parseInt(dir);
   const casePath = path.join(__dirname, '../../cases', dir, 'case.yml');
-  const caseData = yaml.load(fs.readFileSync(casePath, 'utf8'));
   const attributionPath = path.join(__dirname, '../../cases', dir, 'ATTRIBUTION.yml');
-  const attributionData = yaml.load(fs.readFileSync(attributionPath, 'utf8'));
+  
+  // Check if files exist before reading
+  if (!fs.existsSync(casePath)) {
+    console.warn(`Warning: case.yml not found in cases/${dir}, skipping...`);
+    return null;
+  }
+  
+  const caseData = yaml.load(fs.readFileSync(casePath, 'utf8'));
+  
+  // ATTRIBUTION.yml is optional, use default if not exists
+  let attributionData = {};
+  if (fs.existsSync(attributionPath)) {
+    attributionData = yaml.load(fs.readFileSync(attributionPath, 'utf8'));
+  }
+  
   return {
     case_no: caseNumber,
     ...caseData,
     attribution: attributionData
   };
-});
+}).filter(c => c !== null); // Remove null entries
 // Sort cases in descending order by case number
 cases.sort((a, b) => b.case_no - a.case_no);
 
@@ -67,12 +80,13 @@ const data = {
   })),
   'header': fs.readFileSync(path.join(__dirname, '../templates', lang, 'header.md'), 'utf8'),
   'table-of-contents': fs.readFileSync(path.join(__dirname, '../templates', lang, 'table-of-contents.md'), 'utf8'),
-  'gpt4o-intro': fs.readFileSync(path.join(__dirname, '../templates', lang, 'gpt4o-intro.md'), 'utf8'),
+  'nano-banana-pro-intro': fs.readFileSync(path.join(__dirname, '../templates', lang, 'nano-banana-pro-intro.md'), 'utf8'),
   'cases-contents': cases_contents,
   'tools-intro': fs.readFileSync(path.join(__dirname, '../templates', lang, 'tools-intro.md'), 'utf8'),
   'prompting-tips': fs.readFileSync(path.join(__dirname, '../templates', lang, 'prompting-tips.md'), 'utf8'),
   'how-to-contribute': fs.readFileSync(path.join(__dirname, '../templates', lang, 'how-to-contribute.md'), 'utf8'),
   'acknowledgements': fs.readFileSync(path.join(__dirname, '../templates', lang, 'acknowledgements.md'), 'utf8'),
+  'sponsored': fs.readFileSync(path.join(__dirname, '../templates', lang, 'sponsored.md'), 'utf8'),
   'star-history': fs.readFileSync(path.join(__dirname, '../templates', lang, 'star-history.md'), 'utf8')
 };
 
@@ -81,6 +95,6 @@ const readmeTemplate = fs.readFileSync(path.join(__dirname, '../templates/README
 const renderedReadme = Mustache.render(readmeTemplate, data);
 
 // Write the rendered README
-const filename = lang === 'zh' ? 'README.md' : 'README_en.md';
+const filename = lang === 'zh' ? 'README_zh.md' : 'README.md';
 fs.writeFileSync(path.join(__dirname, '../..', filename), renderedReadme);
 console.log(`${filename} generated successfully`);
